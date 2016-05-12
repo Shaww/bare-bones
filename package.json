@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shaww/bare-bones/issues"
   },
-  "homepage": "https://github.com/shaww/bare-bones#readme"
+  "homepage": "https://github.com/shaww/bare-bones#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
