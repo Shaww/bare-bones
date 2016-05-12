@@ -6,9 +6,19 @@ module.exports = function (grunt) {
         options : {
           port      : 9000,
           hostname  : '192.168.2.172',
-          base      : 'public',
-          keepalive : true
+          base      : 'public'
         } 
+      }
+    },
+
+    watch : {
+      // context wide options
+      options : {
+        livereload : true
+      }, 
+
+      static : {
+        files : ['public/css/**', 'public/js/**', 'public/index.html']
       }
     }
 
@@ -16,9 +26,9 @@ module.exports = function (grunt) {
 
   // load the grunt task package
   grunt.loadNpmTasks('grunt-contrib-connect')
-
+  grunt.loadNpmTasks('grunt-contrib-watch')
 
   // register task, need a default at least
-  grunt.registerTask('default', ['connect'])
+  grunt.registerTask('default', ['connect', 'watch'])
 }
 
