@@ -1,0 +1,19 @@
+{
+  "name": "bare-bones",
+  "version": "1.0.0",
+  "description": "bare-bones project set-up using Grunt, Babel, Browserify, Connect for web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaww/bare-bones.git"
+  },
+  "author": "Shaw W",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaww/bare-bones/issues"
+  },
+  "homepage": "https://github.com/shaww/bare-bones#readme"
+}
